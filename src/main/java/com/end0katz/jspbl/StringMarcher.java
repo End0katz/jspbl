@@ -6,7 +6,7 @@ public class StringMarcher {
 
     protected String data;
     protected String result;
-    protected Stack<String> scopes;
+    protected Stack<String> scopes = new Stack<>();
 
     public StringMarcher(String data) {
         this.data = data;
